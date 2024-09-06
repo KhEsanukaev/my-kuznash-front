@@ -1,0 +1,43 @@
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.desc {
+  margin: auto;
+  width: 22%;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.images1 {
+    width: 30%;
+    margin: auto;
+}
+
+.images2 {
+    width: 30%;
+    margin: auto;
+}
+
+.images3 {
+    width: 30%;
+    margin: auto;
+}
+
+.text1 {
+    width: 51%;
+    margin: auto;
+}
+
+.text2 {
+    width: 50%;
+    margin: auto;
+}
+
+.text3 {
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,190 @@
+/* Общие стили для ссылок */
+a {
+  text-decoration: none; /* Убирает нижнее подчеркивание */
+  color: inherit; /* Унаследовать цвет текста от родителя */
+}
+
+/* Основные стили для заголовка */
+.headListUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8080801c;
+  margin-bottom: 2%;
+}
+
+.imgLoc,
+.city,
+.headListDel > div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.headListDel {
+  display: flex;
+  gap: 20px;
+}
+
+.headListDel a,
+.city p {
+  color: inherit; /* Унаследовать цвет текста от родителя */
+}
+
+.locat {
+  display: flex;
+  align-items: center;
+}
+
+.kuznash a {
+  border-radius: 1px;
+  border-color: black;
+  font-size: 30px;
+  align-content: center;
+}
+
+.headLow {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.headNum {
+  margin-left: 1px;
+}
+
+.headCatalog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headCatalog div {
+  margin-right: 20px;
+}
+
+.headCatalog div:last-child {
+  margin-right: 0;
+}
+
+.favoritesLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white; /* Делает текст белым */
+}
+
+.favoritesLink:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding-right: 30px;
+  width: 100%;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.cotButtons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 46px;
+  width: 86%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.button {
+  cursor: pointer;
+  margin: 5px;
+  background-color: #6084fa;
+  border: none;
+  border-radius: 5px;
+  padding: 17px 20px;
+  transition: background-color 0.3s ease;
+  color: #f3eeee;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45d84c;
+}
+
+.hidden {
+  display: none;
+}
+
+.other_button {
+  cursor: pointer;
+  margin: 5px;
+  background-color: #6084fa;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 20px;
+  transition: background-color 0.3s ease;
+  color: #f3eeee;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 18px;
+}
+
+.other_button:hover {
+  background-color: #45d84c;
+}
+
+/* Стили для ссылок внутри other_button */
+.other_button a {
+  text-decoration: none;
+  color: white; /* Делает текст белым */
+}
+
+/* Стили для текста внутри favoritesLink */
+.favoritesLink span {
+  color: rgb(30, 28, 28); /* Делает текст белым */
+}
+
+/* Стили для выпадающего меню */
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdownContainer > div {
+  position: absolute;
+  top: 85%;
+  left: 3px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 240px;
+}
+
+/* Убираем нижнее подчеркивание у ссылок внутри выпадающего меню */
+.dropdownContainer a {
+  text-decoration: none; /* Убирает нижнее подчеркивание */
+  color: inherit; /* Унаследовать цвет текста от родителя */
+}
+
+.dropdownContainer a:hover {
+  text-decoration: underline; /* Добавляет нижнее подчеркивание при наведении */
+}
+
+.text_p {
+  padding-top: 15px;
+}

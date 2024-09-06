@@ -1,0 +1,115 @@
+/* src/components/Categories/categories.module.css */
+
+.all_categories, .cardCategories, .dropdownCategories {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .category, .card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .category:hover, .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 86%;
+    margin: auto;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .cardText {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .catalogButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .catalogButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdownCategories {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  
+/* categories.module.css */
+.carousel {
+    margin-bottom: 20px;
+  }
+  
+  .cardCategories {
+    width: 75%;
+    margin: auto;
+}
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cardList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    padding: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cardText {
+    text-align: center;
+    margin-top: 10px;
+  }
+ 
